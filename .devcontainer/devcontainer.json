@@ -1,0 +1,23 @@
+{
+	"name": "Jupyter",
+
+	"dockerComposeFile": [
+		"docker-compose.yml",
+	],
+
+	"service": "jupyterlab",
+
+	"workspaceFolder": "/home/jovyan/work",
+
+	"extensions": [
+		"ms-toolsai.jupyter",
+		"ms-toolsai.jupyter-keymap",
+		"ms-python.python",
+	],
+
+	"settings": {
+		"python.defaultInterpreterPath": "/opt/conda/bin/python"
+	},
+
+	"remoteUser": "jovyan",
+}
