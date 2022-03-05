@@ -9,11 +9,11 @@
 
 	"workspaceFolder": "/home/jovyan/work",
 
-	"extensions": [
-		"ms-toolsai.jupyter",
-		"ms-toolsai.jupyter-keymap",
-		"ms-python.python",
-	],
+// "extensions": [
+// 	"ms-toolsai.jupyter",
+// 	"ms-toolsai.jupyter-keymap",
+// 	"ms-python.python",
+// ],
 
 	"settings": {
 		"python.defaultInterpreterPath": "/opt/conda/bin/python"

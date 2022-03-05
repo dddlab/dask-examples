@@ -1,4 +1,5 @@
-FROM daskdev/dask-notebook:2022.2.0-py3.8 AS base-python
+# FROM daskdev/dask-notebook:2022.2.0-py3.8 AS base-python
+FROM jupyter/scipy-notebook:2fee7b754cbe AS base-python
 
 USER root
 
@@ -20,4 +21,4 @@ USER ${NB_USER}
 ENV ZSH_DISABLE_COMPFIX=true
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
-RUN mamba install --yes dask-ml matplotlib
+RUN pip install dask-ml h5py idx2numpy wget dask-labextension
