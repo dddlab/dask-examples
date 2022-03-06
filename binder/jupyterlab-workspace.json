@@ -77,9 +77,9 @@
         "widgets": []
       }
     },
-    "notebook:work/array.ipynb":{
+    "notebook:book-material-dask.ipynb":{
        "data":{
-          "path":"work/array.ipynb",
+          "path":"book-material-dask.ipynb",
           "factory":"Notebook"
        }
     },
