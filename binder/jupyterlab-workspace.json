@@ -28,8 +28,8 @@
             {
               "type": "tab-area",
               "currentIndex": 0,
-              "widgets": [
-                "markdownviewer-widget:Welcome.md"
+              "widgets":[
+                  "notebook:book-material-dask.ipynb"
               ]
             },
             {
@@ -59,7 +59,7 @@
           ]
         },
         "mode": "multiple-document",
-        "current": "markdownviewer-widget:Welcome.md"
+        "current": "notebook:book-material-dask.ipynb"
       },
       "left": {
         "collapsed": false,
@@ -77,11 +77,11 @@
         "widgets": []
       }
     },
-    "markdownviewer-widget:Welcome.md": {
-      "data": {
-        "path": "Welcome.md",
-        "factory": "Markdown Preview"
-      }
+    "notebook:work/array.ipynb":{
+       "data":{
+          "path":"work/array.ipynb",
+          "factory":"Notebook"
+       }
     },
     "dask-dashboard-launcher": {
       "url": "DASK_DASHBOARD_URL",
