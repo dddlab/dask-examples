@@ -6,9 +6,9 @@ dependencies:
   - dask=2022.1
   - dask-image=2021.12
   - dask-ml=2022.1
-  - dask-labextension=5.2
+  - dask-labextension
   - h5py
-  - jupyterlab=3.2
+  - jupyterlab=2
   - matplotlib
   - nodejs=17
   - nbserverproxy
@@ -19,7 +19,7 @@ dependencies:
   - pip
   - pyarrow
   - python-graphviz
-  - scikit-learn=1.0
+  - scikit-learn=1
   - seaborn
   - xarray
   - requests
@@ -30,3 +30,4 @@ dependencies:
       - jupyter-server-proxy==3.2
       - idx2numpy==1.2
 prefix: /opt/conda
+
